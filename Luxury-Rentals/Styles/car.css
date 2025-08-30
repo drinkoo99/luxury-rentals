@@ -1,0 +1,73 @@
+:root {
+  --hero-height: 100vh; /* gjithë faqja target ≤100vh me pjesët e tjera kompakte */
+  --shadow: 0 10px 30px rgba(0,0,0,.15);
+}
+
+/* kompenzo navbar fixed 60px */
+body { padding-top: 60px; font-family: 'Poppins', system-ui, -apple-system, Arial, sans-serif; color: #111; }
+
+.car-hero {
+  position: relative;
+  height: calc(var(--hero-height) - 40vh);
+  min-height: 320px;
+  background: linear-gradient(120deg, #0e0e0e, #2a2a2a);
+  background-image: var(--hero-url), linear-gradient(120deg, #0e0e0e, #2a2a2a);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items: center;
+}
+
+.car-hero .overlay {
+  position: absolute; inset: 0;
+  background: rgba(0,0,0,.35);
+}
+
+.hero-content {
+  position: relative; z-index: 1; text-align: center; padding: 1rem 1.5rem;
+  color: white; text-shadow: 0 2px 12px rgba(0,0,0,.5);
+}
+.car-name { font-family: 'Montserrat', system-ui, sans-serif; font-weight: 800; letter-spacing: .5px; font-size: clamp(28px, 5vw, 44px); margin-bottom: .35rem; }
+.car-quote { font-style: italic; opacity: .95; font-size: clamp(14px, 2.6vw, 18px); }
+
+.car-main.container { max-width: 1100px; margin: 0 auto; padding: 18px 16px; }
+
+.car-specs {
+  display: grid; grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+  gap: 12px; margin-top: -40px; position: relative; z-index: 2;
+}
+.spec {
+  background: #fff; border: 1px solid #eee; border-radius: 16px; padding: 12px 14px; box-shadow: var(--shadow);
+  display: flex; align-items: center; gap: 10px; font-weight: 600;
+}
+.spec i { opacity: .85; }
+
+/* Small tweak so new specs match the look */
+.spec span { display: inline-block; vertical-align: middle; }
+.spec i { width: 20px; display: inline-flex; align-items: center; justify-content: center; }
+
+.perf-wrap { display: contents; } /* të shfaqen si elemente grid në të njëjtin layout */
+.perf .fa-bolt { transform: rotate(-15deg); }
+
+.car-desc { margin-top: 16px; line-height: 1.55; }
+.car-desc p { margin-bottom: 10px; }
+.cta { margin-top: 10px; }
+
+.car-gallery { margin-top: 12px; display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; }
+.car-gallery img {
+  width: 100%; height: 120px; object-fit: cover; border-radius: 14px; border: 1px solid #eee; box-shadow: var(--shadow);
+}
+
+.book-btn {
+  transition: all 0.25s ease;
+}
+
+.book-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Responsivitet i lehtë */
+@media (max-width: 576px) {
+  .car-hero { height: 45vh; }
+  .car-specs { margin-top: -20px; }
+}

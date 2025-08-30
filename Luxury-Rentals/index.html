@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FAVICON -->
+  <link rel="icon" type="image/x-icon" href="Images/favicon_round.ico">
+  <!-- AUTOTYPE WITH TYPEDJS -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- FONTS -->
+  <!-- Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <!-- BOOTSTRAP ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="Styles/navbar.css">
+  <link rel="stylesheet" href="Styles/home.css">
+  <link rel="stylesheet" href="Styles/supercars.css">
+  <link rel="stylesheet" href="Styles/book-cars.css">
+  <link rel="stylesheet" href="Styles/about-us.css">
+  <link rel="stylesheet" href="Styles/footer.css">
+  <title>LuxuryRentals</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <span class="logo-name"><i class="fas fa-car-side"></i>LuxuryRentals</span>
+    </div>
+    <div class="nav-content">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#supercars">Supercars</a></li>
+        <li><a href="#book-cars">Book Cars</a></li>
+        <li><a href="#about-us">About us</a></li>
+        <li><a href="account.html" target="_blank">Account</a></li>
+      </ul>
+    </div>
+    <div class="ddd">
+      <button class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <section class="home d-flex justify-content-center align-items-center" id="home">
+    <div class="home-container d-flex flex-column align-items-center justify-content-center p-2 text-white">
+      <h1 class="mb-5">Unleash the <span class="auto-type"></span></h1>
+      <p class="mb-5 text-center">Step into a world of power, prestige, and unparalleled luxury. Drive the legends of Italian engineering, Lamborghini, Ferrari, and Maserati and make every journey thrilling, unforgettable, and truly extraordinary.</p>
+      <a href="#" class="btn-cta">Book Now</a>
+    </div>
+  </section>
+
+  <!-- SUPERCARS SECTION -->
+  <!-- LAMBORGHINI -->
+  <section class="supercars" id="supercars">
+    <div class="supercars-container d-flex justify-content-center align-items-center">
+      <video autoplay muted loop playsinline>
+        <source src="Videos/lamborghini-video-2.mkv" type="video/webm">
+        <source src="Videos/lamborghini-video-2.mkv" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="supercar-card">
+        <div class="supercar-main d-flex flex-column">
+          <h2 class="text-center text-white">Ignite your driving passion</h2>
+          <div class="supercar-content d-flex flex-column">
+            <h3 class="text-center text-white">Lamborghini Revuelto</h3>
+            <div class="supercar-specs d-flex justify-content-between align-items-center">
+              <div class="specs-card">
+                <div class="specs-logo d-flex justify-content-center align-items-center"><i class="fa-solid fa-rocket"></i></div>
+                <div class="specs d-flex justify-content-center align-items-center text-white fw-bold">0-100 / 3.0s</div>
+              </div>
+              <div class="specs-card">
+                <div class="specs-logo d-flex justify-content-center align-items-center"><i class="fa-solid fa-gauge-high"></i></div>
+                <div class="specs d-flex justify-content-center align-items-center text-white fw-bold">606kw</div>
+              </div>
+              <div class="specs-card">
+                <div class="specs-logo d-flex justify-content-center align-items-center"><i class="fa-solid fa-bolt"></i></div>
+                <div class="specs d-flex justify-content-center align-items-center text-white fw-bold">350km/h</div>
+              </div>
+            </div>
+            <div class="supercar-price text-center text-white">€2,799/day</div>
+            <div class="btn-container d-flex gap-2 w-100 justify-content-center align-items-end">
+              <a href="car.html?car=lamborghini-revuelto" class="btn-view-details-supercars" target="_blank">View Details</a>
+              <button class="rent-btn">Rent now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FERRARI -->
+  <section class="supercars" id="supercars">
+    <div class="supercars-container d-flex justify-content-center align-items-center">
+      <video autoplay muted loop playsinline>
+        <source src="Videos/ferrari-video.webm" type="video/webm" style="object-fit: contain;">
+        <source src="Videos/ferrari-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="supercar-card ferrari">
+        <div class="supercar-main d-flex flex-column">
+          <h2 class="ferrari-h2 text-center text-white">Born to dominate the roads</h2>
+          <div class="supercar-content d-flex flex-column">
+            <h3 class="text-center text-white">Ferrari SF90</h3>
+            <div class="supercar-specs d-flex justify-content-between align-items-center">
+              <div class="specs-card">
+                <div class="specs-logo ferrari-specs-logo d-flex justify-content-center align-items-center"><i class="fa-solid fa-rocket"></i></div>
+                <div class="specs d-flex justify-content-center align-items-center text-white fw-bold">0-100 / 2.5s</div>
+              </div>
+              <div class="specs-card">
+                <div class="specs-logo ferrari-specs-logo d-flex justify-content-center align-items-center"><i class="fa-solid fa-gauge-high"></i></div>
+                <div class="specs d-flex justify-content-center align-items-center text-white fw-bold">735kw</div>
+              </div>
+              <div class="specs-card">
+                <div class="specs-logo ferrari-specs-logo d-flex justify-content-center align-items-center"><i class="fa-solid fa-bolt"></i></div>
+                <div class="specs d-flex justify-content-center align-items-center text-white fw-bold">340km/h</div>
+              </div>
+            </div>
+            <div class="supercar-price ferrari-price text-center text-white">€2,499/day</div>
+            <div class="btn-container d-flex gap-2 w-100 justify-content-center align-items-end">
+              <a href="car.html?car=ferrari-sf90" class="btn-view-details-supercars" target="_blank">View Details</a>
+              <button class="rent-btn ferrari-btn">Rent now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- MASERATI -->
+  <section class="supercars" id="supercars">
+    <div class="supercars-container d-flex justify-content-center align-items-center">
+      <video autoplay muted loop playsinline>
+        <source src="Videos/maserati-video.webm" type="video/webm">
+        <source src="Videos/maserati-video.webm" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="supercar-card maserati">
+        <div class="supercar-main d-flex flex-column">
+          <h2 class="maserati-h2 text-center text-white">Ignite your driving passion</h2>
+          <div class="supercar-content d-flex flex-column">
+            <h3 class="text-center text-white">Maserati GT2 Stradale</h3>
+            <div class="supercar-specs d-flex justify-content-between align-items-center">
+              <div class="specs-card">
+                <div class="specs-logo maserati-specs-logo d-flex justify-content-center align-items-center"><i class="fa-solid fa-rocket"></i></div>
+                <div class="specs d-flex justify-content-center align-items-center text-white fw-bold">0-100 / 2.8s</div>
+              </div>
+              <div class="specs-card">
+                <div class="specs-logo maserati-specs-logo d-flex justify-content-center align-items-center"><i class="fa-solid fa-gauge-high"></i></div>
+                <div class="specs d-flex justify-content-center align-items-center text-white fw-bold">471kw</div>
+              </div>
+              <div class="specs-card">
+                <div class="specs-logo maserati-specs-logo d-flex justify-content-center align-items-center"><i class="fa-solid fa-bolt"></i></div>
+                <div class="specs d-flex justify-content-center align-items-center text-white fw-bold">324km/h</div>
+              </div>
+            </div>
+            <div class="supercar-price maserati-price text-center text-white">€1,999/day</div>
+            <div class="btn-container d-flex gap-2 w-100 justify-content-center align-items-end">
+              <a href="car.html?car=maserati-gt2-stradale" class="btn-view-details-supercars" target="_blank">View Details</a>
+              <button class="rent-btn maserati-btn">Rent now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOK CARS -->
+
+  <!-- MERCEDES -->
+  <section class="book-cars py-5" id="book-cars">
+    <div class="container">
+      <!-- SECTION TITLE -->
+      <h2 class="text-center mb-3">Luxury Cars for Every Journey</h2>
+      <p class="book-cars-quote text-center text-muted mb-5">For years, we have provided top-tier vehicles to clients worldwide.</p>
+
+      <!-- BRAND LOGO -->
+      <div class="text-center mb-3">
+        <img src="Car-brands/mercedes.svg" alt="Mercedes Logo" style="height: 80px;">
+      </div>
+
+      <!-- BRAND QUOTE -->
+      <p class="text-center text-secondary mb-5">
+        Unleash precision and elegance, every Mercedes is crafted to turn ordinary drives into memorable journeys, blending meticulous engineering with effortless comfort.
+      </p>
+
+      <!-- CARS GRID -->
+      <div class="row">
+        <!-- CAR-1 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Mercedes-cars/a-class-2024.jpg" alt="A class 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Mercedes A-Class 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Petrol</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€100 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=mercedes-a-class-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-2 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Mercedes-cars/c-class-2024.webp" alt="C class 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Mercedes C-Class 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Petrol</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€110 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=mercedes-c-class-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-3 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Mercedes-cars/e-class-2024.avif" alt="E class 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Mercedes E-Class 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Diesel</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€150 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=mercedes-e-class-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-4 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Mercedes-cars/s-class-2024.avif" alt="S class 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Mercedes S 63-Class 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Petrol</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€700 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=mercedes-s63-class-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-5 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Mercedes-cars/gle63s-amg.jpg" alt="GLE 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Mercedes Benz GLE 63s AMG 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Petrol</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€650 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=mercedes-gle-63s-amg-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-6 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Mercedes-cars/g63-amg-2024.webp" alt="G63 amg class 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Mercedes G63 AMG 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Petrol</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€800 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=mercedes-g63-amg-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- AUDI -->
+  <section class="book-cars py-5" id="book-cars">
+    <div class="container">
+      <!-- BRAND LOGO -->
+      <div class="text-center mb-3">
+        <img src="Car-brands/audi-2.svg" alt="Audi Logo" style="height: 160px;">
+      </div>
+
+      <!-- BRAND QUOTE -->
+      <p class="text-center text-secondary mb-5">
+        Experience innovation and sophistication, every Audi is engineered to ignite passion for driving, blending progressive technology with timeless design.
+      </p>
+
+      <!-- CARS GRID -->
+      <div class="row">
+        <!-- CAR-1 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Audi-cars/audi-a4-sedan-2024.webp" alt="Audi A4 Sedan 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Audi A4 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Petrol</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€90 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=audi-a4-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-2 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Audi-cars/audi-a6-sedan-2024.avif" alt="Audi A6 Sedan 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Audi A6 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Diesel</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€110 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=audi-a6-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-3 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Audi-cars/audi-a8-sedan-2024.jpg" alt="Audi A8 Sedan 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Audi A8 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Petrol</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€190 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=audi-a8-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-4 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Audi-cars/audi-q5-2024.avif" alt="Audi Q5 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Audi Q5 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Hybrid</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€180 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=audi-q5-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-5 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Audi-cars/audi-q7-7seats-2024.avif" alt="Audi Q7 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Audi Q7 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Diesel</li>
+                <li><i class="bi bi-person-fill me-2"></i>7 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€220 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=audi-q7-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-6 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Audi-cars/audi-q8-etron-2024-version2.webp" alt="Audi Q8 E-tron 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Audi Q8 E-tron 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Electric</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€230 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=audi-q8-e-tron-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BMW -->
+  <section class="book-cars py-5" id="book-cars">
+    <div class="container">
+      <!-- BRAND LOGO -->
+      <div class="text-center mb-3">
+        <img src="Car-brands/bmw.svg" alt="BMW Logo" style="height: 100px;">
+      </div>
+
+      <!-- BRAND QUOTE -->
+      <p class="text-center text-secondary mb-5">
+        Every BMW is built to dominate the road. With precise engineering, exhilarating performance, and unparalleled control, it turns every drive into a bold and unforgettable experience
+      </p>
+
+      <!-- CARS GRID -->
+      <div class="row">
+        <!-- BMW 3 Series -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="BMW-cars/bmw-3-series-2024.jpg" alt="BMW 3 Series 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">BMW 3 Series 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Petrol</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€120 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=bmw-3-series-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BMW 5 Series -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="BMW-cars/bmw-5-series-2024.jpg" alt="BMW 5 Series 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">BMW 5 Series 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Petrol</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€150 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=bmw-5-series-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BMW 7 Series -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="BMW-cars/bmw-7-series-2024-v2.avif" alt="BMW 7 Series 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">BMW 7 Series 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Petrol</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€300 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=bmw-7-series-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BMW X5 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="BMW-cars/bmw-x5-2024.avif" alt="BMW X5 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">BMW X5 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Hybrid</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€200 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=bmw-x5-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BMW X7 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="BMW-cars/bmw-x7-7seats-2024.jpg" alt="BMW X7 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">BMW X7 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Diesel</li>
+                <li><i class="bi bi-person-fill me-2"></i>7 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€250 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=bmw-x7-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BMW i4 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="BMW-cars/bmw-i4-2024.avif" alt="BMW i4 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">BMW i4 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Electric</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€230 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=bmw-i4-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- JEEP -->
+  <section class="book-cars py-5" id="book-cars">
+    <div class="container">
+      <!-- BRAND LOGO -->
+      <div class="text-center mb-3">
+        <img src="Car-brands/jeep-seeklogo.png" alt="BMW Logo" style="height: 60px;">
+      </div>
+
+      <!-- BRAND QUOTE -->
+      <p class="text-center text-secondary mb-5">
+        Jeep embodies freedom and adventure. With rugged capability, fearless design, and unstoppable spirit, each journey becomes an unforgettable exploration
+      </p>
+
+      <!-- CARS GRID -->
+      <div class="row">
+        <!-- CAR-1 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Jeep-cars/jeep-wrangler-2024.avif" alt="JEEP Wrangler 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">JEEP Wrangler 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Petrol</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€160 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=jeep-wrangler-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-2 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Jeep-cars/jeep-grand-cherokee-2024.avif" alt="JEEP Grand Cherokee 2024" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">JEEP Grand Cherokee 2024</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Diesel</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€180 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=jeep-grand-cherokee-2024" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-3 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Jeep-cars/jeep-compass-2024.jpg" alt="JEEP Compass 2021" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">JEEP Compass 2021</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Manual</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Petrol</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€110 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=jeep-compass-2021" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-4 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Jeep-cars/jeep-renegade-2021.avif" alt="JEEP Renegade 2021" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">JEEP Renegade 2021</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Hybrid</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€120 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=jeep-renegade-2021" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-5 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Jeep-cars/jeep-gladiator-2023.avif" alt="JEEP Gladiator 2023" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">JEEP Gladiator 2023</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Diesel</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€200 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=jeep-gladiator-2023" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-6 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Jeep-cars/jeep-cherokee.avif" alt="JEEP Cherokee 2020" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">JEEP Cherokee 2020</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Manual</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Petrol</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€100 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=jeep-cherokee-2020" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- VOLVO -->
+  <section class="book-cars py-5" id="book-cars">
+    <div class="container">
+      <!-- BRAND LOGO -->
+      <div class="text-center mb-3">
+        <img src="Car-brands/volvo-logo-v2.png" alt="BMW Logo" style="height: 100px;">
+      </div>
+
+      <!-- BRAND QUOTE -->
+      <p class="text-center text-secondary mb-5">
+        Volvo combines safety, elegance, and innovation. Engineered for comfort and reliability, it transforms every drive into a refined and confident journey.
+      </p>
+
+      <!-- CARS GRID -->
+      <div class="row">
+        <!-- CAR-1 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Volvo-cars/volvo-xc90-2023.avif" alt="Volvo XC90 2023" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Volvo XC90 2023</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Hybrid</li>
+                <li><i class="bi bi-person-fill me-2"></i>7 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€190 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=volvo-xc90-2023" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-2 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Volvo-cars/volvo-xc60-2022.avif" alt="Volvo XC60 2022" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Volvo XC60 2022</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Petrol</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€150 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=volvo-xc60-2022" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-3 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Volvo-cars/volvo-s90-2021.webp" alt="Volvo S90 2021" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Volvo S90 2021</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Manual</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Diesel</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€140 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=volvo-s90-2021" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-4 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Volvo-cars/volvo-v60-2020.jpg" alt="Volvo V60 2020" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Volvo V60 2020</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Manual</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Diesel</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€120 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=volvo-v60-2020" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-5 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Volvo-cars/volvo-c40-recharge.jpg" alt="Volvo C40 Recharge 2023" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Volvo C40 Recharge 2023</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Electric</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€210 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=volvo-c40-recharge-2023" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR-6 CARD -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="Volvo-cars/volvo-xc40-2021.jpg" alt="Volvo XC40 2021" class="card-img-top h-100 w-100 object-fit-cover">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-2">Volvo XC40 2021</h5>
+              <ul class="list-unstyled small text-muted d-flex justify-content-center gap-3 mb-3">
+                <li><i class="bi bi-gear-fill me-2"></i>Automatic</li>
+                <li><i class="bi bi-fuel-pump-fill me-2"></i>Petrol</li>
+                <li><i class="bi bi-person-fill me-2"></i>5 Seats</li>
+              </ul>
+              <p class="price text-primary fw-bold mb-3">€130 / day</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="car.html?car=volvo-xc40-2021" target="_blank" class="btn-view-details">View Details</a>
+                <button class="btn-book-now">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT US -->
+  <section class="about-us" id="about-us">
+    <div class="container">
+      <h2>About Us</h2>
+      <p class="intro">
+        At LuxuryRentals, we are committed to delivering an unforgettable supercar experience. Our expertise, passion, and dedication ensure you can trust us to provide excellence at every step.
+      </p>
+      <div class="features">
+        <div class="feature">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Trusted Expertise</h3>
+          <p>Years of experience in luxury car rentals, making every ride seamless and reliable.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-heart"></i>
+          <h3>Passion for Cars</h3>
+          <p>We live and breathe cars, ensuring every vehicle is maintained to the highest standards.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-user-check"></i>
+          <h3>Customer First</h3>
+          <p>Your satisfaction is our top priority. We’re here to support you every mile of the journey.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-road"></i>
+          <h3>Safety & Transparency</h3>
+          <p>Clear contracts, thorough briefings, and strict safety measures ensure a secure experience.</p>
+        </div>
+      </div>
+      <p class="signature">– The LuxuryRentals Team</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>LuxuryRentals</h3>
+        <p>We are committed to providing reliable and high-quality services. Trust us, and we will make your experience unforgettable.</p>
+      </div>
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Example Street, Berlin, Germany</p>
+        <p class="phone-number"><i class="fas fa-phone"></i> +1 69 123 4567</p>
+        <p class="company-email"><i class="fas fa-envelope"></i> info@example.com</p>
+      </div>
+      <div class="footer-social">
+        <h3>Follow Us</h3>
+        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 All Rights Reserved | LuxuryRentals</p>
+    </div>
+  </footer>
+
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  <!-- JAVASCRIPT -->
+  <script src="Scripts/script.js"></script>
+  <script src="Scripts/car.js"></script>
+  <script src="Scripts/car-details.js"></script>
+</body>
+</html>

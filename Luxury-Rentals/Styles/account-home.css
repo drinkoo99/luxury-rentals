@@ -1,0 +1,167 @@
+:root {
+  --lamborghini-color: rgb(255, 215, 0);
+  --ferrari-color: rgb(255, 40, 0);
+  --random-color: rgb(40, 167, 69);
+  --maserati-color: rgb(0, 0, 50);
+  --title-font: 'Montserrat', sans-serif;
+  --text-font: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--text-font);
+}
+
+.account-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../Images/home-section-background.jpg) no-repeat center/cover;
+  filter: blur(6px);
+  z-index: 0;
+}
+
+.account-form {
+  position: relative;
+  width: 40%;
+  height: 65%;
+  /* background-color: lightblue; */
+  z-index: 1;
+  border-radius: 10px;
+  margin-top: 60px;
+  padding: 20px 30px;
+  backdrop-filter: blur(40px);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
+}
+
+.form-container {
+  width: 95%;
+  height: 95%;
+  /* background-color: lightpink; */
+  padding: 10px;
+}
+
+h2 {
+  color: white;
+  font-family: var(--title-font);
+}
+
+input {
+  width: 100%;
+  padding: 8px 0 8px 10px;
+  border: 2px solid white;
+  color: white;
+  background: black;
+  border-radius: 8px;
+  transition: all 0.1s ease;
+}
+
+input:focus {
+  outline: 2px solid white; /* në vend të border */
+  outline-offset: 2px;      /* që duket bukur */
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
+}
+
+label {
+  font-weight: bold;
+  font-family: var(--title-font);
+  font-size: 1.1rem;
+  color: white;
+}
+
+a {
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.log-in-btn {
+  width: 40%;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: black;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  transition: all 0.15s ease;
+}
+
+.log-in-btn:hover {
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 1400px) {
+  .account-form {
+    width: 50%;
+    height: 70%;
+    padding: 20px 25px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .account-form {
+    width: 60%;
+    height: 70%;
+    padding: 18px 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .account-form {
+    width: 80%;
+    height: 75%;
+    padding: 16px 12px;
+  }
+  .form-container {
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .account-form {
+    width: 80%;
+    height: 65%;
+    padding: 14px 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .account-container {
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+  .account-form {
+    width: 80%;
+    height: auto;
+    margin-top: 0;
+    padding: 10px 4px;
+    border-radius: 6px;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  label {
+    font-size: 1rem;
+  }
+  input {
+    font-size: 1rem;
+  }
+  .log-in-btn {
+    width: 40%;
+    font-size: 1rem;
+  }
+}

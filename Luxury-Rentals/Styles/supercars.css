@@ -1,0 +1,281 @@
+:root {
+  --lamborghini-color: rgb(255, 215, 0);
+  --ferrari-color: rgb(255, 40, 0);
+  --random-color: rgb(40, 167, 69);
+  --maserati-color: rgb(0, 0, 50);
+  --title-font: 'Montserrat', sans-serif;
+  --text-font: 'Poppins', sans-serif;
+}
+
+.supercars {
+  width: 100%;
+}
+
+.supercars-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(10px);
+}
+
+.supercar-card.ferrari {
+  box-shadow: 0 0 20px rgba(255, 40, 0, 0.9);
+}
+
+.ferrari .specs-logo i {
+  text-shadow: 0 0 12px rgba(255, 40, 0, 0.9);
+}
+
+.ferrari-specs-logo {
+  text-shadow: 0 0 20px rgba(255, 40, 0, 0.9) !important;
+}
+
+.ferrari-price {
+  text-shadow: 0 0 20px rgba(255, 40, 0, 0.9) !important;
+}
+
+.ferrari-btn {
+  background: linear-gradient(135deg, rgb(255, 40, 0), rgb(188, 0, 0)) !important;
+}
+
+.ferrari-h2 {
+  text-shadow: 0 0 20px rgba(255, 40, 0, 0.9) !important;
+  font-family: var(--title-font), sans-serif;
+}
+
+.maserati-h2 {
+  text-shadow: 0 0 20px rgba(0, 0, 50, 0.9) !important;
+  font-family: var(--title-font), sans-serif;
+}
+
+.supercar-card.maserati {
+  box-shadow: 0 0 20px rgba(0, 0, 50, 0.9);
+}
+
+.maserati .specs-logo i {
+  text-shadow: 0 0 12px rgba(0, 0, 50, 0.9);
+}
+
+.maserati-price {
+  text-shadow: 0 0 20px rgba(0, 0, 50, 0.9) !important;
+}
+
+.maserati-btn {
+  background: linear-gradient(135deg, rgb(0, 0, 50), rgb(0, 0, 100)) !important;
+}
+
+.supercar-card {
+  width: 40%;
+  height: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 22px;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.9);
+  border-radius: 15px;
+  backdrop-filter: blur(20px);
+}
+
+.supercar-main {
+  width: 100%;
+  height: 100%;
+}
+
+.supercar-main h2 {
+  font-size: 2.5rem;
+  text-shadow: 0 0 20px rgba(255, 215, 0, 0.9);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.supercar-content {
+  width: 100%;
+  height: 100%;
+}
+
+.supercar-specs {
+  width: 100%;
+  height: 50%;
+}
+
+.specs-card {
+  width: 25%;
+  height: 50%;
+}
+
+.specs-logo {
+  width: 100%;
+  height: 50%;
+}
+
+.specs-logo i {
+  font-size: 1.4rem;
+  color: white;
+  text-shadow: 0 0 12px rgba(255, 215, 0, 0.9);
+}
+
+.specs {
+  width: 100%;
+  height: 50%;
+  font-size: 1.2rem;
+}
+
+.supercar-price {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: 0 0 20px rgba(255, 215, 0, 0.9);
+}
+
+.supercar-content:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rent-btn {
+  width: 35%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 25px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  background: linear-gradient(135deg, rgb(255, 215, 0), rgb(255, 165, 0));
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.rent-btn:hover {
+  transform: translateY(-4px);
+}
+
+.btn-view-details-supercars {
+  text-decoration: none;
+  padding: 13px 25px;
+  font-size: 1.1rem;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-view-details-supercars:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 576px) {
+  .supercar-main h2 { /* e shtuar*/
+    font-size: 1.2rem; /* e shtuar*/
+  } /* e shtuar*/
+
+  .supercar-content h3 { /* e shtuar*/
+    font-size: 0.8rem; /* e shtuar*/
+  }
+
+  .specs-logo i {
+    font-size: 0.8rem; /*e shtuar */
+  }
+
+  .specs { /* e shtuar */
+    font-size: 0.8rem !important; /* e shtuar */
+  } /* e shtuar */
+
+  .supercar-price { /* e shtuar */
+    font-size: 1rem; /* e shtuar */
+  } /* e shtuar */
+
+  .rent-btn { /* e shtuar */
+    padding: 10px 15px; /* e shtuar */
+    font-size: 1rem; /* e shtuar */
+    width: 90%; /* e shtuar */
+  } /* e shtuar */
+
+  .supercars-container {
+    height: 100vh;
+  }
+
+  .supercars-container video {
+    height: 100%;
+  }
+
+  .supercar-card {
+    width: 55%;
+    height: 50%;
+    padding: 20px;
+  }
+
+  .specs {
+    font-size: 1rem;
+  }
+
+  .btn-view-details-supercars {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  video {
+    height: 100vh;
+  }
+
+  .supercar-card {
+    width: 60%;
+    height: 60%;
+    padding: 20px;
+  }
+
+  .specs {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .rent-btn {
+    width: 50%;
+  }
+
+  .supercar-main h2 {
+    font-size: 1.5rem;
+  }
+
+  .supercar-content h3 {
+    font-size: 1rem;
+  }
+
+  .specs-logo i {
+    font-size: 1rem;
+  }
+
+  .supercar-price {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  video {
+    height: 100vh;
+  }
+
+  .supercar-card {
+    width: 55%;
+  }
+}
+
+@media (max-width: 1200px) {
+  video {
+    height: 100vh;
+  }
+
+  .supercar-card {
+    width: 70%;
+  }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- FAVICON -->
+  <link rel="icon" type="image/x-icon" href="Images/favicon_round.ico">
+  <!-- AUTOTYPE WITH TYPEDJS -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- BOOTSTRAP ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="Styles/car.css">
+  <link rel="stylesheet" href="Styles/navbar.css">
+  <title>Car Details</title>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html" target="_blank" style="text-decoration: none;"><span class="logo-name"><i class="fas fa-car-side"></i>LuxuryRentals</span></a>
+    </div>
+    <div class="nav-content">
+      <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#supercars">Supercars</a></li>
+        <li><a href="index.html#book-cars">Book Cars</a></li>
+        <li><a href="index.html#about-us">About us</a></li>
+        <li><a href="account.html" target="_blank">Account</a></li>
+      </ul>
+    </div>
+    <div class="ddd">
+      <button class="menu-btn"><i class="fas fa-bars"></i></button>
+    </div>
+  </nav>
+
+  <header id="car-hero" class="car-hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 id="car-name" class="car-name">Loading…</h1>
+      <p id="car-quote" class="car-quote"><i class="fas fa-quote-left"></i> … </p>
+    </div>
+  </header>
+
+  <main class="car-main container">
+    <section class="car-specs">
+      <div class="spec"><i class="fas fa-industry"></i><span id="car-brand">—</span></div>
+      <div class="spec"><i class="fas fa-calendar-alt"></i><span id="car-year">—</span></div>
+      <div class="spec"><i class="fas fa-cogs"></i><span id="car-transmission">—</span></div>
+      <div class="spec"><i class="fas fa-gas-pump"></i><span id="car-fuel">—</span></div>
+      <div class="spec"><i class="fas fa-users"></i><span id="car-seats">—</span></div>
+
+      <!-- NEW SPECS: engine, drivetrain, interior -->
+      <div class="spec"><i class="fas fa-tachometer-alt"></i><span id="car-engine">—</span></div>
+      <div class="spec"><i class="fas fa-road"></i><span id="car-drivetrain">—</span></div>
+      <div class="spec"><i class="fas fa-couch"></i><span id="car-interior">—</span></div>
+
+      <div id="perf-wrap" class="perf-wrap">
+        <div class="spec perf"><i class="fas fa-stopwatch"></i> <span id="car-accel">—</span></div>
+        <div class="spec perf"><i class="fas fa-bolt"></i> <span id="car-power">—</span></div>
+        <div class="spec perf"><i class="fas fa-road"></i> <span id="car-top">—</span></div>
+      </div>
+    </section>
+
+    <section class="car-desc">
+      <p id="car-description">Loading details…</p>
+      <div class="cta">
+        <a id="book-link" href="index.html#book-cars" class="btn btn-dark book-btn">
+          <i class="fas fa-clipboard-check me-2"></i>Book this car
+        </a>
+      </div>
+    </section>
+
+    <section id="car-gallery" class="car-gallery"></section>
+  </main>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="Scripts/script.js"></script>
+  <script src="Scripts/car.js"></script>
+  <script src="Scripts/car-details.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
