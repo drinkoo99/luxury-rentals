@@ -12,25 +12,25 @@ allowing users to view detailed car specifications.
 
 ## 🖼️ Screenshots
 
-![Hero Section](Screenshots/hero.png)  
+![Hero Section](/Luxury-Rentals/Screenshots/hero.png)  
 *Hero Section with video overlay and page title.*
 
-![Supercars Section](Screenshots/supercar.png)  
+![Supercars Section](/Luxury-Rentals/Screenshots/supercar.png)  
 *Displaying supercars cards with details and “View Details” button.*
 
-![Cars Section](Screenshots/cars.png)  
+![Cars Section](/Luxury-Rentals/Screenshots/cars.png)  
 *Book Cars section showing different brands and available vehicles.*
 
-![About Us Section](Screenshots/about-us.png)  
+![About Us Section](/Luxury-Rentals/Screenshots/about-us.png)  
 *About Us section emphasizing the company’s offerings.*
 
-![View Details](Screenshots/view-details.png)  
+![View Details](/Luxury-Rentals/Screenshots/view-details.png)  
 *Car Details page showing specific vehicle information and specifications.*
 
-![Login](Screenshots/login.png)  
+![Login](/Luxury-Rentals/Screenshots/login.png)  
 *Login form (non-functional, placeholder for future backend integration).*
 
-![SignUp](Screenshots/signup.png)  
+![SignUp](/Luxury-Rentals/Screenshots/signup.png)  
 *Signup form (non-functional, planned for future implementation).*
 
 ---
