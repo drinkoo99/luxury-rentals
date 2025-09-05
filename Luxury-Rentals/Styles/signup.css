@@ -53,15 +53,15 @@ body {
 
 .user-container {
   display: flex;
-  justify-content: space-between; /* vendos njërin majtas e tjetrin djathtas */
-  gap: 20px; /* hapësirë mes tyre */
+  justify-content: space-between; 
+  gap: 20px; 
   width: 100%;
 }
 
 .user-info {
   display: flex;
-  flex-direction: column; /* label mbi input */
-  width: 40%; /* secili merr gjysmën e gjerësisë (pak hapësirë mes tyre) */
+  flex-direction: column;
+  width: 40%;
 }
 
 h2 {
@@ -80,8 +80,8 @@ input {
 }
 
 input:focus {
-  outline: 2px solid white; /* në vend të border */
-  outline-offset: 2px;      /* që duket bukur */
+  outline: 2px solid white; 
+  outline-offset: 2px;      
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
 }
 

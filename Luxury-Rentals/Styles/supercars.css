@@ -173,31 +173,31 @@ video {
 }
 
 @media (max-width: 576px) {
-  .supercar-main h2 { /* e shtuar*/
-    font-size: 1.2rem; /* e shtuar*/
-  } /* e shtuar*/
+  .supercar-main h2 { /* added */
+    font-size: 1.2rem; /* added */
+  } /* added */
 
-  .supercar-content h3 { /* e shtuar*/
-    font-size: 0.8rem; /* e shtuar*/
+  .supercar-content h3 { /* added */
+    font-size: 0.8rem; /* added */
   }
 
   .specs-logo i {
-    font-size: 0.8rem; /*e shtuar */
+    font-size: 0.8rem; /* added */
   }
 
-  .specs { /* e shtuar */
-    font-size: 0.8rem !important; /* e shtuar */
-  } /* e shtuar */
+  .specs { /* added */
+    font-size: 0.8rem !important; /* added */
+  } /* added */
 
-  .supercar-price { /* e shtuar */
-    font-size: 1rem; /* e shtuar */
-  } /* e shtuar */
+  .supercar-price { /* added */
+    font-size: 1rem; /* added */
+  } /* added */
 
-  .rent-btn { /* e shtuar */
-    padding: 10px 15px; /* e shtuar */
-    font-size: 1rem; /* e shtuar */
-    width: 90%; /* e shtuar */
-  } /* e shtuar */
+  .rent-btn { /* added */
+    padding: 10px 15px; /* added */
+    font-size: 1rem; /* added */
+    width: 90%; /* added */
+  } /* added */
 
   .supercars-container {
     height: 100vh;
@@ -218,8 +218,8 @@ video {
   }
 
   .btn-view-details-supercars {
-    font-size: 0.9rem;
-    padding: 10px 15px;
+    font-size: 0.9rem !important;
+    padding: 10px 15px !important;
   }
 }
 

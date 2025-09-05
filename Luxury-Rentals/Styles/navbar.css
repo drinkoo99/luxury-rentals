@@ -173,13 +173,13 @@ body {
     padding-left: 10px;
   }
 
-  /* Kur menuja është aktive */
+  /* when the menu is active */
   .nav-content.active ul li {
     transform: translateX(0);
     opacity: 1;
   }
 
-  /* Stagger delay për efekt më të bukur */
+  /* Stagger delay for better effect */
   .nav-content.active ul li:nth-child(1) { transition-delay: 0.05s; }
   .nav-content.active ul li:nth-child(2) { transition-delay: 0.1s; }
   .nav-content.active ul li:nth-child(3) { transition-delay: 0.15s; }
@@ -269,13 +269,13 @@ body {
     padding-left: 10px;
   }
 
-  /* Kur menuja është aktive */
+  /* when menu is active */
   .nav-content.active ul li {
     transform: translateX(0);
     opacity: 1;
   }
 
-  /* Stagger delay për efekt më të bukur */
+  /* Stagger delay for a better effect */
   .nav-content.active ul li:nth-child(1) { transition-delay: 0.05s; }
   .nav-content.active ul li:nth-child(2) { transition-delay: 0.1s; }
   .nav-content.active ul li:nth-child(3) { transition-delay: 0.15s; }

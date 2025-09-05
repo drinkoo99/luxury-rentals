@@ -68,8 +68,8 @@ input {
 }
 
 input:focus {
-  outline: 2px solid white; /* në vend të border */
-  outline-offset: 2px;      /* që duket bukur */
+  outline: 2px solid white; /* instead of border */
+  outline-offset: 2px;      /* to look cool */
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
 }
 
