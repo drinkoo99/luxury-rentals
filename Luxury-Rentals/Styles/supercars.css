@@ -217,9 +217,16 @@ video {
     font-size: 1rem;
   }
 
+  .rent-btn {
+    width: 40% !important;
+    padding: 8px 12px !important;
+    font-size: 0.9rem !important;
+  }
+
   .btn-view-details-supercars {
     font-size: 0.9rem !important;
-    padding: 10px 15px !important;
+    padding: 6px 12px !important;
+    width: auto !important;
   }
 }
 
